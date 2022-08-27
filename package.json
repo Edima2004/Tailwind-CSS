@@ -1,0 +1,18 @@
+{
+  "name": "TailwindCss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "CI= react-scripts build",
+    "start": "tailwind build -i ./src/styles.css -o ./dist/index.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
+ 

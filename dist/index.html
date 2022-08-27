@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="index.css">
+   <title>Tailwind Portfolio</title>
+</head>
+
+<body class="">
+<!-- First Section -->
+
+   <!-- Navbar -->
+   <nav class="relative mx-auto container p-6">
+
+<!--Flex-container-->
+   <div class="flex items-center justify-between">
+
+      <!-- Logo -->
+      <div class="pt-2">
+         <img src="../img/logo.svg" alt="logo">
+      </div>
+
+      <!-- Menu Items -->
+      <div class="hidden md:flex space-x-6 gap">
+         <a href="" class="hover:text-darkGrayishBlue">Pricing</a>
+         <a href="" class="hover:text-darkGrayishBlue">Product</a>
+         <a href="" class="hover:text-darkGrayishBlue">About Us</a>
+         <a href="" class="hover:text-darkGrayishBlue">Careers</a>
+         <a href="" class="hover:text-darkGrayishBlue">Community</a>
+      </div>
+      <!-- Button -->
+      <a href="" type="button" class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">Get Started</a>
+
+      <!-- Hamburger menu -->
+      <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+         <span class="hamburger-top"></span>
+         <span class="hamburger-middle"></span>
+         <span class="hamburger-bottom"></span>
+      </button>
+ </div>
+
+      <!-- Mobile menu -->
+      <div class="md:hidden">
+         <div id="menu" class="absolute flex-col items-center self-end py-8 mt-10 space-y-6 hidden font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+            <a href="">Pricing</a>
+            <a href="">Product</a>
+            <a href="">About Us</a>
+            <a href="">Careers</a>
+            <a href="">Community</a>
+         </div>
+      </div>
+
+   </nav>
+
+<!-- Second Section -->
+   <section class="">
+      <div class="container mx-auto flex flex-col-reverse md:flex-row items-center px-6 mt-10 space-y-0 md:space-y-0">
+         <div class="max-w-md mb-32 space-y-12 text-center md:text-start ">
+            <h1 class="mb-6 mt-12 font-bold text-4xl">Bringing everyone together to build better products.</h1>
+            <p>Management makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view</p>
+         <!-- Button -->
+         <a href="" type="button" class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight mt-8">Get Started</a>
+         </div>
+         <div class="md:w-1/2 pr-12">
+         <img src="../img/illustration-intro.svg" alt="graph">
+         </div>
+      </div>
+   </section>
+
+<!-- Third Section -->
+<article >
+   <div class="container mx-auto flex flex-col justify-center gap-6 mb-6 items-center px-6 space-y-0 md:space-y-0 md:flex-row md:items-start md:justify-between">
+      <div class=" space-y-2 text-center md:w-1/2 md:text-start">
+         <h1 class="font-bold text-4xl pb-8">  What's different about our Management Scheme? </h1>
+         <p class="text-darkGrayishBlue text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam impedit aliquam cumque harum nam, dicta ea soluta repellat reiciendis velit!</p>
+      </div>
+      <div class="space-y-8 my-6 md:w-1/2 space-x-6">
+           <div>
+               <div class="flex items-baseline rounded-l-full ml-6 pr-16 bg-brightRedSupLight md:bg-white">
+                  <div class="rounded-full bg-brightRed px-4 py-2 text-white">01</div>
+                  <h2 class="font-bold pl-4">Lorem ipsum dolor sit amet.</h2>
+               </div>
+               <div>
+                  <p class="text-sm text-darkGrayishBlue ml-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptatibus, incidunt, minus quod laborum placeat debitis quibusdam maxime dolor veritatis error magnam! Incidunt, optio ut.</p>
+               </div>
+            </div>
+         <div>
+            <div>
+               <div class="flex items-baseline rounded-l-full pr-12 bg-brightRedSupLight md:bg-white">
+                  <div class="rounded-full bg-brightRed px-4 py-2 text-white">02</div>
+                  <h2 class="font-bold pl-4">Lorem ipsum dolor sit amet.</h2>
+               </div>
+               <div>
+                  <p class="text-sm text-darkGrayishBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptatibus, incidunt, minus quod laborum placeat debitis quibusdam maxime dolor veritatis error magnam! Incidunt, optio ut.</p>
+               </div>
+            </div>
+         </div>
+            <div>
+               <div class="flex items-baseline rounded-l-full pr-12 bg-brightRedSupLight md:bg-white">
+                  <div class="rounded-full bg-brightRed px-4 py-2 text-white">03</div>
+                  <h2 class="font-bold pl-4">Lorem ipsum dolor sit amet.</h2>
+               </div>
+               <div>
+                  <p class="text-sm text-darkGrayishBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptatibus, incidunt, minus quod laborum placeat debitis quibusdam maxime dolor veritatis error magnam! Incidunt, optio ut.</p>
+               </div>
+            </div>
+      </div>
+   </div>
+</article>
+
+<!-- Third Section -->
+<section class="container mx-auto text-center my-12">
+    <h1 class="font-bold text-4xl mb-20">  What's different about our Management Scheme? </h1>
+
+    <div class="flex flex-col gap-6 md:flex-row">
+
+      <div class="relative bg-veryLightGray p-2 max-w-sm mx-auto">
+         <div class="absolute -top-12 left-1/3 w-1/4 img">
+            <img src="../img/avatar-anisha.png" alt="anisha.img">
+         </div>
+          <h1 class="font-bold text-2xl pt-10 pb-4">Anisha Li</h1>
+          <p class="text-darkGrayishBlue text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas saepe magni exercitationem maxime alias fugit facilis cumque culpa esse quidem.</p>
+      </div> 
+
+      <div class="hidden relative bg-veryLightGray p-2 max-w-sm mx-auto md:block ">
+         <div class="absolute -top-12 left-1/3 w-1/4 img">
+            <img src="../img/avatar-ali.png" alt="Ali.img">
+         </div>
+          <h1 class="font-bold text-2xl pt-10 pb-4">Ali Bravo</h1>
+          <p class="text-darkGrayishBlue text-sm ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas saepe magni exercitationem maxime alias fugit facilis cumque culpa esse quidem.</p>
+      </div>
+
+      <div class="hidden relative bg-veryLightGray p-2 max-w-sm mx-auto md:block">
+         <div class="absolute -top-12 left-1/3 w-1/4 img">
+            <img src="../img/avatar-richard.png" alt="richard.img">
+         </div>
+          <h1 class="font-bold text-2xl pt-10 pb-4">Richard Watts</h1>
+          <p class="text-darkGrayishBlue text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas saepe magni exercitationem maxime alias fugit facilis cumque culpa esse quidem.</p>
+      </div>
+
+    </div>
+         <!-- Button -->
+         <a href="" type="button" class="p-3 px-6 pt-2 max-w-xs mt-6 text-white bg-brightRed rounded-full hover:bg-brightRedLight">Get Started</a>
+
+</section>
+
+<!-- Fourth Section -->
+<section class="bg-brightRed">
+   <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+      <h2 class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-start">
+         Simplify how your team works today
+      </h2>
+      <div>
+         <a href="" type="button" class="p-3 px-6 pt-2 max-w-xs mt-6 bg-white text-brightRed text-center shadow-2xl rounded-full hover:bg-gray-500 hover:text-white">Get Started</a>
+      </div>
+   </div>
+
+</section>
+
+<!-- Footer -->
+<footer class="bg-veryDarkBlue">
+<div class="flex container flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+   <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+      <div class="mx-auto my-6 text-center text-white md:hidden">
+         Copyright &copy
+      </div>
+      <div><img src="../img/logo-white.svg" class="h-8" alt="white-ogo"></div>
+
+      <div class="flex justify-center space-x-4">
+         <a href="">  <img src="../img/icon-facebook.svg" alt="icons">  </a>
+         <a href="">  <img src="../img/icon-youtube.svg" alt="icons">  </a>
+         <a href="">  <img src="../img/icon-twitter.svg" alt="icons">  </a>
+         <a href="">  <img src="../img/icon-pinterest.svg" alt="icons">  </a>
+         <a href="">  <img src="../img/icon-instagram.svg" alt="icons">  </a>
+      </div>
+      
+   </div>
+   <div class="flex justify-around space-x-32">
+      <div class="flex flex-col space-y-3 text-white">
+         <a href="" class="hover:text-brightRed"> Home </a>
+         <a href="" class="hover:text-brightRed"> Pricing </a>
+         <a href="" class="hover:text-brightRed"> Products </a>
+         <a href="" class="hover:text-brightRed"> About </a>
+      </div>
+      <div class="flex flex-col space-y-3 text-white">
+         <a href="" class="hover:text-brightRed"> Careers </a>
+         <a href="" class="hover:text-brightRed"> Community </a>
+         <a href="" class="hover:text-brightRed"> Privacy Policy </a>
+      </div>
+   </div>
+
+   <div class="flex flex-col justify-between">
+      <form action="">
+         <div class="flex space-x-3">
+            <input 
+            type="text" 
+            class="flex-1 px-4 rounded-full focus:outline-none h-10" 
+            placeholder="Updated in your inbox"
+            >
+            <button class="px-6 py-2 h-10 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none">Go</button>
+         </div>
+      </form>
+      <div class="hidden text-white md:block">Copyright &copy: 2022, All Rights Reserved</div>
+   </div>
+</div>
+
+</footer>
+
+
+<script src="index.js"></script>
+</body>
+</html>
