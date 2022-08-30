@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "CI= react-scripts build",
     "start": "tailwind build -i ./src/styles.css -o ./dist/index.css --watch"
   },
   "keywords": [],
