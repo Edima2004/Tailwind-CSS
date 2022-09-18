@@ -1,18 +1,18 @@
 {
-  "name": "TailwindCss",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "tailwind build -i ./src/styles.css -o ./dist/index.css --watch",
-    "build": "npm run build"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "tailwindcss": "^3.1.8"
-  }
+	"name": "TailwindCss",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "tailwind build -i ./src/styles.css -o ./dist/index.css --watch",
+		"build": "tailwind build -i ./src/styles.css -o ./dist/index.css"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {},
+	"devDependencies": {
+		"tailwindcss": "^3.1.8"
+	}
 }
  
